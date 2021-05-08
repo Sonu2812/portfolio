@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+/* Top start */
+
+.header-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.header-ul a{
+    text-decoration: none;
+    font-size: 35px;
+    color: grey;
+    padding: 0 80px;
+}
+
+.header-ul a:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+.center-box{
+    margin: 100px 0px;
+    padding: 0 20px;
+}
+
+.center-box .top{
+    display: block;
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: right;
+}
+
+.center-box .bottom{
+    display: block;
+    color: yellow;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.right-box{
+    margin: 40px 0;
+    text-align: right;
+    padding: 0 20px;
+}
+
+.right-box img{
+    width: 70%;
+    height: 450px;
+    margin-right: 100px;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+/* Top end */
+
+/* Middle portion start */
+
+.left-box-2 h1,h3{
+    color: #fff;
+}
+
+.right-box-top{
+    color: #fff;
+    font-weight: 600;
+}
+
+.right-box-2{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right-box-2 h2{
+    font-size:25px;
+    font-weight: 700;
+}
+
+.right-box-2 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box-1{
+    width: 33%;
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgb(41, 38, 53);
+}
+
+.box-2{
+    width: 33%;
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    background-color: rgb(41, 38, 53);
+}
+
+.box-3{
+    width: 33%;
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgb(41, 38, 53);
+}
+
+.right-box-2 a{
+    color: coral;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right-box-2 .box-2 p{
+    margin-bottom: 35px;
+}
+
+.right-box-2 a:hover{
+   color: blue;
+}
+
+/* Middle portion end */
+
+/* Work Portion start */
+
+.work-left{
+    margin-top: 250px;
+    color: #fff;
+}
+
+.work-left p{
+    font-size: 20px;
+}
+
+.work-left a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 80px;
+    padding: 10px;
+}
+
+.work-left a:hover{
+    color: yellow;
+}
+
+.work-right{
+    margin: 100px 0;
+}
+
+.work-right h1{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.img-box{
+    max-width: 900px;
+    height: 400px;
+}
+
+.mySlides{
+    width: 100%;
+    display: none;
+}
+/* Work Portion end */

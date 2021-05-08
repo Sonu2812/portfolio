@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+/* Header start */
+
+.header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header .sp-1{
+    color: yellow;
+}
+
+.header .header-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header .header-ul a{
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+}
+
+.header .header-ul a:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+/* Header end */
+
+/* Middle Portion start */
+
+.con-1{
+   margin: 50px auto;
+}
+
+.con-1 span{
+    color: darkgray;
+}
+
+.mid-box-1 h2{
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.mid-box-1 h2,p{
+    color: #fff;
+    
+}
+
+.mid-box-1 p{
+    font-size: 20px;
+}
+
+.button{
+    width: 65%;
+    height: 45px;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 40px;
+    margin-top: 15px;
+}
+
+.mid-box-2{
+    margin-top: 95px;
+}
+
+.mid-box-2 h2,p{
+    color: #fff;
+}
+
+.mid-box-2 p{
+    font-size: 20px;
+}
+
+.mid-box-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+}
+
+.mid-box-2 a:hover{
+    color: blue;
+}
+
+.mid-box-3 .box-1{
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.mid-box-3 .box-2{
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.mid-box-3 h1{
+    color: yellow;
+    font-size: 40px;
+}
+
+.mid-box-3 h4{
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+/* Middle Portion end */
+
+/* Bottom Portion start */
+
+.con-2{
+    margin: 80px auto;
+
+}
+
+.con-2 .bott-left h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.con-2 h3{
+    color: gray;
+    padding: 15px 0;
+}
+
+.con-2 .bott-left{
+    padding: 0 50px;
+}
+
+.con-2 .progress-bar{
+    border-radius: 20px;
+    height: 30px;
+}
+
+.con-2 .bott-right{
+    padding: 0 50px;
+}
+
+.con-2 .bott-right .top{
+    font-size: 33px;
+}
+
+.con-2 .bott-right button{
+    border-radius: 20px;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.con-2 .bott-right span{
+    background-color: yellow;
+    font-size: 40px;
+}
+
+.bott-right .box-1, .box-2{
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+}
+
+.con-2 .bott-right .box-1, .box-2{
+    border-left: 1px solid yellow;
+}
+
+.con-2 .bott-right h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.con-2 .bott-right h2{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+/* Bottom Portion end */

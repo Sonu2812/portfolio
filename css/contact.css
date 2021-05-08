@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Header start */
+
+.header-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-ul a{
+    text-decoration: none;
+    font-size: 30px;
+    color: grey;
+}
+
+.header-ul a:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+/* Header end */
+
+/* Second Portion start */
+
+.con-2{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.sec-left h1{
+    color: yellow;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sec-left p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+   margin-top: 20px; 
+}
+
+.sec-left .mob{
+    color: darkgray;
+}
+
+.sec-left .fa{
+    color: gray;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.sec-left .fa:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.sec-right form{
+    color: black;
+}
+
+.sec-right form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 5px solid gray;
+    font-size: 20px;
+
+}
+
+.sec-right form textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 5px solid gray;
+    font-size: 20px;
+
+}
+
+.sec-right .submit{
+    width: 20%;
+    font-size: 20px;
+}
+
+.sec-right span{
+    color: red;
+    font-size: 20px;
+    display: block;
+}
+
+/* Second Portion end */

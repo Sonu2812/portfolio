@@ -138,6 +138,10 @@ body{
 
 /* Work Portion start */
 
+.con-2{
+    margin: 50px auto;
+}
+
 .work-left{
     margin-top: 250px;
     color: #fff;
@@ -156,6 +160,16 @@ body{
 
 .work-left a:hover{
     color: yellow;
+}
+
+.work-left .button{
+    width: 60%;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: yellow;
+    color: black;
+    border-radius: 50px;
 }
 
 .work-right{

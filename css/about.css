@@ -195,3 +195,13 @@ body{
 }
 
 /* Bottom Portion end */
+
+@media (max-width:1200px){
+    .con-1 .mid-box-1 .button{
+        width: 250px;
+    }
+
+    .con-1 .mid-box-3{
+        margin-top: 30px;
+    }
+}

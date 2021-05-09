@@ -50,3 +50,9 @@ body{
 }
 
 /* Second Portion end */
+
+@media (max-width:500px){
+    .con-2 a{
+        width: 100%;
+    }
+}

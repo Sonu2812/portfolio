@@ -38,6 +38,28 @@ body{
     background-color: yellow;
 }
 
+.header-ul-2{
+    display: none;
+}
+
+.header-ul-2 button{
+    font-size: 30px;
+}
+
+.header-ul-2 .dropdown-menu{
+    background-color: yellow;
+}
+
+.header-ul-2 .dropdown-menu a:hover{
+    color: white;
+    background-color: black;
+}
+
+.header-ul-2 button:hover{
+    color: blue;
+    background-color: black;
+}
+
 /* Header end */
 
 /* Middle Portion start */
@@ -194,6 +216,16 @@ body{
     font-weight: 300;
 }
 
+.bott-right .box-2 a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.bott-right .box-2 a:hover{
+    color: black;
+}
+
 /* Bottom Portion end */
 
 @media (max-width:1200px){
@@ -203,5 +235,25 @@ body{
 
     .con-1 .mid-box-3{
         margin-top: 30px;
+    }
+}
+
+@media (max-width:700px){
+    
+    .header .header-ul{
+        display: none;
+    }
+
+    .header-ul-2{
+        display: block;
+        margin: 100px 0;
+    }
+
+    .con-1 .mid-box-3 .box-1{
+        width: 100%;
+    }
+
+    .con-1 .mid-box-3 .box-2{
+        width: 100%;
     }
 }

@@ -25,6 +25,28 @@ body{
     background-color: yellow;
 }
 
+.header-ul-2{
+    display: none;
+}
+
+.header-ul-2 button{
+    font-size: 30px;
+}
+
+.header-ul-2 .dropdown-menu{
+    background-color: yellow;
+}
+
+.header-ul-2 .dropdown-menu a:hover{
+    color: white;
+    background-color: black;
+}
+
+.header-ul-2 button:hover{
+    color: blue;
+    background-color: black;
+}
+
 /* header end */
 
 /* Second Portion start */
@@ -51,8 +73,24 @@ body{
 
 /* Second Portion end */
 
+/* media query start */
+
+@media (max-width:700px){
+
+    .header-ul{
+        display: none;
+    }
+
+    .header-ul-2{
+        display: block;
+        margin: 50px 0;
+    }
+}
+
 @media (max-width:500px){
     .con-2 a{
         width: 100%;
     }
 }
+
+/* media query end */

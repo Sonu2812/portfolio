@@ -28,6 +28,28 @@ body{
     background-color: yellow;
 }
 
+.header-ul-2{
+    display: none;
+}
+
+.header-ul-2 button{
+    font-size: 30px;
+}
+
+.header-ul-2 .dropdown-menu{
+    background-color: yellow;
+}
+
+.header-ul-2 .dropdown-menu a:hover{
+    color: white;
+    background-color: black;
+}
+
+.header-ul-2 button:hover{
+    color: blue;
+    background-color: black;
+}
+
 .center-box{
     margin: 100px 0px;
     padding: 0 20px;
@@ -220,6 +242,15 @@ body{
 }
 
 @media (max-width:700px){
+
+    .header-ul{
+        display: none;
+    }
+
+    .header-ul-2{
+        display: block;
+        margin: 50px 0;
+    }
    
     .right-box-2 .box-1{
         width: 100%;

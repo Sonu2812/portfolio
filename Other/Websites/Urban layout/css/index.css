@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Solway', serif;;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Top 1 Starts */
+.top-1{
+    width: 100%; 
+    height: 780px;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.top-1 .nav .top{
+    color: rgb(52, 152, 219);
+    font-size: 23px;
+}
+
+.top-1 .nav p{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.top-1 .nav h4{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.top-1 .fa{
+    margin-right: 10px;
+}
+
+.top-1 .middle{
+    clear: both;
+    margin: 0  auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.top-1 .middle h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.top-1 .middle p{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 200;
+}
+
+.top-1 .middle button{
+    width: 17%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(52, 152, 219);
+    color: #fff;
+}
+
+/* Top 1 Ends here */
+
+/* Top 2 Starts here */
+
+.top-2{
+    width: 100%;
+    background-color: #dfdfdf;
+}
+
+.top-2 .container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-2 .left-box{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    float: left;
+    width: 35%;
+    
+}
+
+.top-2 .left-box img{
+    border-radius: 100%;
+    text-align: right;
+    width: 100%;
+}
+
+.top-2 .right-box{
+    float: left;
+    width: 65%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+
+.top-2 .right-box h4{
+    font-weight: 600;
+    font-size: 23px;
+    margin-left: 50px;
+}
+
+.top-2 .right-box p{
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+.top-2 .right-box button{
+    width: 17%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(52, 152, 219);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+/* Top 2 Ends Here */ 
+
+/* Top 3 Starts here */
+
+.top-3{
+    clear: both;
+    width: 100%;
+    background-color: rgb(52, 152, 219);
+    color: #fff;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.top-3 .left-box{
+    float: left;
+    width: 70%;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.top-3 .left-box h4{
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.top-3 .left-box p{
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.top-3 .left-box button{
+    width: 17%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: rgb(52, 152, 219);
+}
+
+.top-3 .right-box{
+    margin-top: 80px;
+    margin-bottom: 90px;
+    float: left;
+    width: 30%;
+}
+
+.top-3 .right-box img{
+    border-radius: 100%;
+    text-align: right;
+    width: 100%;
+}
+
+/* Top 3 Ends Here */
+
+/* Top 4 Starts here */
+
+.top-4{
+    width: 100%;
+    background-color: #dfdfdf;
+    clear: both;
+}
+
+.top-4 .container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.top-4 .top-box{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.top-4 .top-box h1{
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+
+.top-4 p{
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.top-4 .box-1{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.top-4 .box-1 img{
+    border-radius: 100%;
+    width: 80%;
+}
+
+.top-4 .box-2{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+.top-4 .box-2 img{
+    border-radius: 100%;
+    width: 80%;
+}
+
+.top-4 .box-3{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+.top-4 .box-3 img{
+    border-radius: 100%;
+    width: 80%;
+}
+
+.top-4 button{
+    width: 40%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(52, 152, 219);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+/* Top 4 Ends Here */
+
+/* Top 5 Starts here */
+
+.top-5{
+    clear: both;
+    text-align: center;
+}
+
+.top-5 .fa{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(153, 153, 153);
+    padding: 10px;
+    border-radius: 100%;
+    color: rgb(153, 153, 153);
+}
+
+.top-5 p{
+    margin-top: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+/* Top 5 Ends Here */
+
+/* Media query Starts here */
+
+@media only screen and (max-width:1300px){
+    .top-2 .left-box{
+        width: 100%;
+    }
+
+    .top-2 .left-box img{
+        width: 80%;
+        text-align: center;
+    }
+
+    .top-2 .right-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .top-3 .left-box{
+        width: 100%;
+    }
+
+    .top-3 .right-box{
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
+
+    .top-3 .right-box img{
+        width: 80%;
+        text-align: center;
+    }
+
+    .top-4 .box-1{
+        width: 100%;
+    }
+
+    .top-4 .box-2{
+        width: 100%;
+    }
+
+    .top-4 .box-3{
+        width: 100%;
+    }
+
+    .top-1 .middle button , .top-2 .right-box button , .top-3 .left-box button{
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+/* Media query Ends here */
+
+
+

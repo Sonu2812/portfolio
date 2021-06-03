@@ -1,0 +1,170 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+* {box-sizing: border-box;}
+
+#bg-video{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(../img/tm-astro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navigation start */
+
+.navigation{
+    margin: 20px 50px;
+    background: none;
+    border: none;
+}
+
+.navigation h4 a{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.navigation .navbar-nav{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.navigation .navbar-nav li a{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0 50px;
+    color: #fff;  
+    line-height: 40px;
+}
+
+.navigation .navbar-nav li a:hover{
+    color: #99FF66;
+}
+
+/* Navigation end */
+
+/*  Middle Portion start */
+
+/* external css: flickity.css */
+
+.carousel{
+    margin: 100px 180px;
+    border-top: 2px solid #fff;
+    padding-top: 80px;
+}
+
+.carousel-cell {
+  width: 30%;
+  height: 450px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell img{
+    width: 250px;
+    position: relative;
+}
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 335px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    padding: 0 20px;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay p{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover p{
+    transform: translateY(0);
+}
+
+.image__overlay p{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Middle Portion end */
+
+/* Bottom Portion start */
+
+.bottom{
+    margin: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.bottom h4{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.bottom p:hover{
+    color: #99FF66;
+}
+
+/* Bottom Portion end */
+
+/* Media query start */
+
+@media (max-width:1200px){
+
+    .carousel-cell{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .carousel-cell img{
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+}
+
+
+
+
+/* Media query end */

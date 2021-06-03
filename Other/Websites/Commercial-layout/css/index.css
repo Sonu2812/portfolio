@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* Header start */
+
+.top{
+    text-align: center;
+    height: 170px;
+    background-color: black;
+    padding-top: 20px;
+    
+}
+
+.top h1{
+    color: darkgreen;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.top h4{
+    color: lightgreen;
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+    top: -45px;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Header end */
+
+/* Navigation start */
+
+.nav-bar{
+    height: 55px;
+    margin-top: 30px;
+    background-color: rgb(65, 235, 65);
+    border-radius: 3px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    float: left;
+}
+
+.nav-bar ul li{
+    float: left;
+    margin-right: 80px;
+}
+
+.nav-bar ul li{
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar li :hover{
+    color: blue;
+}
+
+/* Navigation end */
+
+/* Image section start */
+
+.top-img img{
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+/* Image section end */
+
+/* Left section start */
+
+.left-box{
+    width: 480px;
+    float: left;
+}
+
+.left-box .box-1 h2{
+    color: rgb(65, 235, 65);
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 35px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.left-box .box-1 p{
+    text-align: right;
+}
+
+.left-box .box-2 h2{
+    color: rgb(65, 235, 65);
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 35px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.left-box .box-2 p{
+    line-height: 30px;
+    font-family: 'Antic Slab', serif;
+}
+
+.left-box .box-3 h2{
+    color: rgb(65, 235, 65);
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 35px;
+    font-family: 'Mukta', sans-serif;
+} 
+
+.left-box .box-3 p{
+    line-height: 30px;
+    font-family: 'Antic Slab', serif;
+}
+
+.left-box .box-4 h2{
+    color: rgb(65, 235, 65);
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 35px;
+    font-family: 'Mukta', sans-serif;
+} 
+
+.left-box .box-4 p{
+    line-height: 30px;
+    font-family: 'Antic Slab', serif;
+}
+
+/* Left section end */
+
+/* Right section start */
+
+.right-box{
+    width: 480px;
+    float: right;
+}
+
+.right-box .box h1{
+    color: rgb(65, 235, 65);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.right-box .box span{
+    color: grey;
+}
+
+.right-box .box p{
+    line-height: 25px;
+}
+
+/* Right section end */
+
+@media only screen and (max-width:650px){
+    .top{
+        height: 350px;
+    }
+
+    .top h1{
+        font-size: 100px;
+    }
+
+    .top h4{
+        font-size: 50px;
+    }
+
+    .nav-bar ul li{
+        display: block;
+        clear: both;
+        font-size: 40px;
+        margin: 5px 40px;
+    }
+ 
+    .nav-bar{
+        height: 370px;
+    }
+
+    .top-img img{
+        height: 400px;
+    }
+
+    .left-box{
+        width: 100%;
+    }
+
+    .left-box .box-1 h2, .left-box .box-2 h2, .left-box .box-3 h2, .left-box .box-4 h2{
+        font-size: 60px;
+        margin-left: 30px;
+    }
+
+    .left-box .box-1 p, .left-box .box-2 p, .left-box .box-3 p, .left-box .box-4 p{
+        font-size: 30px;
+        text-align: left;
+        margin: 0 20px;
+        line-height: 50px;
+    }
+
+    .right-box{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .right-box .box h1{
+        font-size: 60px;
+        margin-left: 30px;
+    }
+
+    .right-box .box p{
+        font-size: 30px;
+        text-align: justify;
+        margin: 0 50px;
+        line-height: 50px;
+    }
+
+    .right-box .box .bottom{
+        padding-bottom: 100px;
+    }    
+ }

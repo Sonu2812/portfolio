@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+
+* {box-sizing: border-box;}
+
+#bg-video{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(../img/tm-astro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navigation start */
+
+.navigation{
+    margin: 20px 50px;
+    background: none;
+    border: none;
+    
+}
+
+.navigation h4 a{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.navigation .navbar-nav{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.navigation .navbar-nav li a{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0 50px;
+    color: #fff;  
+    line-height: 40px;
+}
+
+.navigation .navbar-nav li a:hover{
+    color: #99FF66;
+}
+
+/* Navigation end */
+
+/* Middle Portion start */
+
+.middle{
+    width: 60%;
+    margin: 60px 0;
+    margin-left: 500px;
+    margin-right: 150px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.full-box{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.box{
+    padding: 30px;
+}
+
+.box .top{
+    position: relative;
+}
+
+.box h1{
+    font-size: 40px;
+    cursor: pointer;
+    display: inline;
+    transition: .5s ease;
+}
+
+.box .top .inner{
+    position: absolute;
+    left: 42%;
+    top: -1px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.overlay{
+    opacity: 0;
+}
+
+.box .top:hover h1{
+    opacity: .5;
+}
+
+.box .top:hover .overlay{
+    opacity: 1;
+    color: #99FF66;
+}
+
+.box .top .inner h6{
+    font-size: 25px;
+}
+
+.box p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.box span{
+    color: #99FF66;
+    font-weight: 400;
+}
+
+/* Middle Portion end */
+
+/* Bottom Portion start */
+
+.bottom{
+    margin: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+
+.bottom h4{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.bottom p:hover{
+    color: #99FF66;
+}
+
+/* Bottom Portion end */
+
+/* Media query start */
+
+@media (max-width:1300px){
+
+   .middle{
+       margin: 0 auto;
+   }
+}
+
+/* Media query end */
